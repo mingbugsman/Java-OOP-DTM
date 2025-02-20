@@ -1,0 +1,11 @@
+Construct a Rectangle class with two Attributes : width and length, along with the methods getPerimeter() and getArea()
+to Calculate the perimeter and area. The display() method will output the length, area and perimeter to the screen
+
+Create a Square class that inherits from the Rectangle class and overrides the display() method to output the side length, area, and perimeter.
+
+Write a program to input two rectangles and one square, then display their information on the screen.
+
+Guidance
+✔ Build the classes following the inheritance hierarchy as described.
+
+Link youtube trả bài : https://youtu.be/UD8QYWxIHL4
