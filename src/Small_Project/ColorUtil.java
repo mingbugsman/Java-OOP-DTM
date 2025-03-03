@@ -4,7 +4,6 @@ import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.util.UUID;
 
 public class ColorUtil {
     // Hàm nội suy tuyến tính giữa 2 giá trị
