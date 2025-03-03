@@ -12,7 +12,10 @@ public class program {
             System.out.println("Nhap option : ");
             switch (scanner.nextInt()) {
                 case 1 :
-                    studentManager.addStudent(studentManager.createStudent());
+                    if (studentManager.addStudent(studentManager.createStudent())) {
+                        System.out.println("Hoan tat them");
+                    }
+                    System.out.println("Loi khi them");
                     break;
 
                 case 2 :
