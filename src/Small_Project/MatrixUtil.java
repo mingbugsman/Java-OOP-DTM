@@ -1,6 +1,5 @@
 package Small_Project;
 
-import java.util.Arrays;
 
 public class MatrixUtil {
     public static void printMatrix(int[][] matrix) {
@@ -62,7 +61,7 @@ public class MatrixUtil {
                     }
                 }
             }
-            return output;
+             return output;
     }
     public static int lerp(int x, int xMax, int xMin, int yMax, int yMin) {
         if (xMax == xMin) return yMin; // Tránh chia cho 0

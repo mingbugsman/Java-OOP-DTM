@@ -5,7 +5,9 @@ import LabTuan3.Bai1.Infracture.StudentManager;
 
 
 public class Bai1 {
+
     private final StudentManager studentManager;
+
     public Bai1(StudentManager studentManager) {
         this.studentManager = studentManager;
     }

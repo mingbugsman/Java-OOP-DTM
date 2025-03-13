@@ -66,13 +66,17 @@ public class Program {
                 """);
     }
     public static void initialDependencies() {
+
         scanner = new Scanner(System.in);
         StudentRepository studentRepository = new StudentRepositoryImpl();
         StudentManager studentManager = new StudentManager(studentRepository, scanner);
+        bai1 = new Bai1(studentManager);
 
         EmployeeRepository employeeRepository = new EmployeeRepositoryImpl();
         EmployeeManager employeeManager = new EmployeeManager(employeeRepository, scanner);
-        bai1 = new Bai1(studentManager);
+
+
+
         bai2 = new Bai2(scanner);
         bai3 = new Bai3(scanner);
         bai4 = new Bai4(scanner, employeeManager);

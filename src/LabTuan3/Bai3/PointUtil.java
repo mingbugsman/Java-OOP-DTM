@@ -9,6 +9,7 @@ public class PointUtil {
     public static void getSymmetricPoint(Point point) {
         System.out.println("res : {" + point.getX() + ", " + -point.getY() + "}" );
     }
-
-
 }
+
+
+// HELPER - UTIL
