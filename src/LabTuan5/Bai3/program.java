@@ -1,12 +1,13 @@
-package LabTuan4.Bai3;
+package LabTuan5.Bai3;
 
-import LabTuan4.Bai1.Circle;
-import LabTuan4.Bai3.Extends.Rectangle;
-import LabTuan4.Bai3.Extends.Square;
+
+import LabTuan5.Bai3.Extends.Circle;
+import LabTuan5.Bai3.Extends.Rectangle;
+import LabTuan5.Bai3.Extends.Square;
 
 import java.util.Scanner;
 
-public class Bai3 {
+public class program {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,7 +15,7 @@ public class Bai3 {
         String color = scanner.nextLine();;
         System.out.print("Enter radius : ");
         double radius = scanner.nextDouble();
-        Circle circle = new Circle(radius, color);
+        Circle circle = new Circle("red", true, radius);
         System.out.println(circle);
 
         System.out.print("Enter height : ");
@@ -33,4 +34,3 @@ public class Bai3 {
 
     }
 }
-
